@@ -1,0 +1,5 @@
+node_modules/
+.edit-tracker.json
+*.log
+.DS_Store
+Thumbs.db
