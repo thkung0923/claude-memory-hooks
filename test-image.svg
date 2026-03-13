@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#1a237e"/>
+    </linearGradient>
+  </defs>
+  <!-- Night sky -->
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <!-- Moon -->
+  <circle cx="320" cy="60" r="35" fill="#fff9c4" opacity="0.9"/>
+  <circle cx="335" cy="50" r="30" fill="url(#sky)"/>
+  <!-- Stars -->
+  <circle cx="50" cy="40" r="2" fill="white" opacity="0.8"/>
+  <circle cx="150" cy="25" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="250" cy="50" r="1" fill="white" opacity="0.7"/>
+  <circle cx="100" cy="80" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="200" cy="15" r="2" fill="white" opacity="0.9"/>
+  <circle cx="80" cy="120" r="1" fill="white" opacity="0.6"/>
+  <circle cx="180" cy="90" r="1.5" fill="white" opacity="0.7"/>
+  <!-- Mountains -->
+  <polygon points="0,250 80,150 160,250" fill="#1b3a4b"/>
+  <polygon points="100,250 200,130 300,250" fill="#1a2f3a"/>
+  <polygon points="220,250 330,160 400,250" fill="#1b3a4b"/>
+  <!-- Ground -->
+  <rect x="0" y="245" width="400" height="55" fill="#0d2818"/>
+  <!-- Text -->
+  <text x="200" y="285" text-anchor="middle" fill="#aed581" font-family="sans-serif" font-size="16" opacity="0.8">Good Night 🌙</text>
+</svg>
